@@ -1,0 +1,24 @@
+/* .container {
+    position: relative;
+    width: 18.75rem;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+
+.responsive-iframe {
+	width: 300.75rem;
+	height: 30rem;
+}
+/* @media only screen and (max-width: 500px) {
+	.swiper {
+		width: 100%;
+		/* height: 100%; */
+/* background: transparent; */
+/* padding-left: 23px;
+		left: -10px; */
+/* }
+}
+@media (max-width: 800px) {
+	.Video {
+		width: 100%;
+	}
+} */

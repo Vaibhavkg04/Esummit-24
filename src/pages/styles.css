@@ -1,0 +1,136 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#aboutcomp{
+}
+.past{
+
+  height: 20rem;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+  height:50%;
+}
+
+.imgg{
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+   
+  }
+
+  .startup-container .people-container {
+    padding-top: 50px;
+    
+  }
+  .startup-container .people-container .people-carousel .swiper-wrapper {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .startup-container .people-container .people-carousel .swiper-wrapper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .startup-container .people-container .people-carousel .swiper-wrapper .swiper-slide .member-container {
+    overflow: hidden;
+    margin: 20px 10px;
+    max-width: 300px;
+    
+  }
+  .startup-container .people-container .people-carousel .swiper-wrapper .swiper-slide .member-container .member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .startup-container .people-container .people-carousel .swiper-wrapper .swiper-slide .member-container .member .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .startup-container .people-container .people-carousel .swiper-wrapper .swiper-slide .member-container .member .image img {
+    width: 100px;
+    
+  }
+
+  @media screen and (max-width: 1400px) {
+    #edit .swiper-slide .swiper-wrapper .gallery{
+      width:50px;
+      right: -198px;
+    }
+  }
+
+  .gallery .container .swiper-container {
+    width: 100%;
+    padding: 50px;
+    
+  }
+  @media screen and (max-width: 1400px) {
+    .gallery .container .swiper-container {
+      padding: 50px 0px;
+      
+    }
+  }
+  .gallery .container .swiper-container .swiper-wrapper .swiper-slide {
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    
+  }
+  @media screen and (max-width: 430px) {
+    .gallery .container .swiper-container .swiper-wrapper .swiper-slide {
+      width: 380px;
+      height: 280px;
+      
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .gallery .container .swiper-container .swiper-wrapper .swiper-slide {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .gallery .container .swiper-container .swiper-wrapper .swiper-slide {
+      width: 250px;
+      height: 200px;
+      
+    }
+  }
+  

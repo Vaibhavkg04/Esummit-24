@@ -1,0 +1,48 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size:contain;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.imgg{
+  height: 350px;
+  width: 300px;
+  border-radius: 50%;
+ 
+}
+
+
+.back{
+  --tw-gradient-from: rgb(6, 20, 37);
+--tw-gradient-to: rgb(0 0 0 / 0);
+--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+}
