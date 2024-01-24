@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 import Scard from "../components/Scard";
 
 import MainEventCard from "../components/mainEventcard";
-import ravi from "../assets/ravi.png";
-import akhay from "../assets/akhay.png";
-import pawan from "../assets/pawan.png";
-import vatsal from "../assets/vatsal.png";
-import jyoti from "../assets/jyoti.png";
+import ravi from "../assets/ravi.jpg";
+import akhay from "../assets/akhay.jpg";
+import pawan from "../assets/pawan (2).jpg";
+import vatsal from "../assets/vatsal.jpg";
+import jyoti from "../assets/jyoti.jpg";
 export default function Curr() {
 	return (
 		<>
@@ -17,8 +17,8 @@ export default function Curr() {
 				className=" h-cover w-[100%] opacity-900 contrast-125 bg-cover "
 			>
 				<div className="flex justify-center items-center pt-[100px]">
-					<h1 className="text-sky-400 font-bold lg:text-5xl text-5xl font-Orbitron">
-						Events
+					<h1 className="text-sky-400 font-bold lg:text-5xl text-4xl font-Orbitron">
+						Current Speakers
 					</h1>
 				</div>
 
