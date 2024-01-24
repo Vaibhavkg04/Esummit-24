@@ -12,7 +12,7 @@ const Scard = ({ title, tagline, image }) => {
 					<img
 						src={image}
 						alt="sample"
-						className=" h-[120px] object-contain w-[130px] lg:w-[220px] lg:h-fit  "
+						className=" h-[120px] object-contain w-[130px] lg:w-[220px] lg:h-[200px]  "
 					/>
 				</div>
 			</div>
