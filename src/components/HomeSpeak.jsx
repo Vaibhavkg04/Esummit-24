@@ -1,7 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import styled, { keyframes, css } from "styled-components";
-import AboutComponent from "./counterAbout";
+
 import img1 from "../assets/4.jpeg";
 import img2 from "../assets/amanDhat.jpeg";
 import img3 from "../assets/2.jpeg";
@@ -12,8 +12,14 @@ import img7 from "../assets/abhinav.jpeg";
 import img8 from "../assets/anand.jpeg";
 import img9 from "../assets/7.jpeg";
 import img10 from "../assets/1.jpeg";
+import AboutComponent from "./counterAbout";
+import { useNavigate } from "react-router-dom";
 
 export default function HomeSpeak() {
+	const navigate = useNavigate();
+	function Teleport() {
+		navigate("/Speakers");
+	}
 	return (
 		<>
 			<div
@@ -31,53 +37,53 @@ export default function HomeSpeak() {
 				<Marquee direction="right" pauseOnHover speed={100} delay={5}>
 					<div>
 						<ImageGroup>
-							<Image src={img1} alt="" />
+							<Image src={img1} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper rounded-full">
 						<ImageGroup>
-							<Image src={img2} alt="" />
+							<Image src={img2} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img3} alt="" />
+							<Image src={img3} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img4} alt="" />
+							<Image src={img4} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img5} alt="" />
+							<Image src={img5} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img6} alt="" />
+							<Image src={img6} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img7} alt="" />
+							<Image src={img7} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img8} alt="" />
+							<Image src={img8} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img9} alt="" />
+							<Image src={img9} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img10} alt="" />
+							<Image src={img10} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 				</Marquee>

@@ -75,7 +75,7 @@ export function TopSection() {
 		<div>
 			<div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
 				<div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
-					<p>All Inclusive</p>
+					<p>Bit Mesra 's</p>
 					<h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
 						E-SUMMIT 2024
 					</h1>
@@ -84,6 +84,7 @@ export function TopSection() {
 					</p>
 
 					<button className="bg-white text-black "></button>
+
 					<Countdown />
 				</div>
 			</div>

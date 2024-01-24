@@ -12,8 +12,13 @@ import img9 from "../assets/sponsorsk23/trends.png";
 import img10 from "../assets/sponsorsk23/unstop-icon-800x800.png";
 import img11 from "../assets/sponsorsk23/waffcha.png";
 import img12 from "../assets/sponsorsk23/wowdetailingstudio.png";
+import { useNavigate } from "react-router-dom";
 
 export default function HomeSponsors() {
+	const navigate = useNavigate();
+	function Teleport() {
+		navigate("/Sponsors");
+	}
 	return (
 		<>
 			<div
@@ -31,58 +36,58 @@ export default function HomeSponsors() {
 				<Marquee direction="left" pauseOnHover speed={100} delay={5}>
 					<div>
 						<ImageGroup>
-							<Image src={img1} alt="" />
+							<Image src={img1} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img7} alt="" />
+							<Image src={img7} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img3} alt="" />
+							<Image src={img3} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img4} alt="" />
+							<Image src={img4} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img5} alt="" />
+							<Image src={img5} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img6} alt="" />
+							<Image src={img6} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img8} alt="" />
+							<Image src={img8} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img9} alt="" />
+							<Image src={img9} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img10} alt="" />
+							<Image src={img10} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img11} alt="" />
+							<Image src={img11} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 					<div className="image_wrapper">
 						<ImageGroup>
-							<Image src={img12} alt="" />
+							<Image src={img12} onClick={Teleport} />
 						</ImageGroup>
 					</div>
 				</Marquee>

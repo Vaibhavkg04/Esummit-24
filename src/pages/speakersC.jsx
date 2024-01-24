@@ -10,6 +10,10 @@ import pawan from "../assets/pawan (2).jpg";
 import vatsal from "../assets/vatsal.jpg";
 import jyoti from "../assets/jyoti.jpg";
 export default function Curr() {
+	const navigate = useNavigate();
+	function Teleport() {
+		navigate("/Speakers");
+	}
 	return (
 		<>
 			<div
@@ -24,19 +28,19 @@ export default function Curr() {
 
 				<div className=" flex flex-wrap  items-center justify-center gap-[50px] lg:px-[50px] pt-[80px] pb-[60px]">
 					<div className="cursor-pointer">
-						<Scard image={ravi} />
+						<Scard image={ravi} onClick={Teleport} />
 					</div>
 					<div className="cursor-pointer">
-						<Scard image={jyoti} />
+						<Scard image={jyoti} onClick={Teleport} />
 					</div>
 					<div className="cursor-pointer">
-						<Scard image={vatsal} />
+						<Scard image={vatsal} onClick={Teleport} />
 					</div>
 					<div className="cursor-pointer">
-						<Scard image={pawan} />
+						<Scard image={pawan} onClick={Teleport} />
 					</div>
 					<div className="cursor-pointer">
-						<Scard image={akhay} />
+						<Scard image={akhay} onClick={Teleport} />
 					</div>
 				</div>
 			</div>

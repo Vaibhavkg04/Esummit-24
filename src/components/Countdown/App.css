@@ -81,22 +81,14 @@
 	color: #818cf8;
 }
 
-/* 
-
-
-@media screen and (min-width: 200px)
-	and (max-device-width: 600px){
-  
-    .show-counter {
-    padding-left:13.8rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    /* padding: 0.5rem; */
-
-/* }
-    .show-counter .countdown-link {
-      padding: 0.5rem;
-    }
-  
-  
-  } */
+@media screen and (min-width: 200px) and (max-device-width: 600px) {
+	.show-counter {
+		padding-left: 13.8rem;
+		margin-left: 0.5rem;
+		margin-right: 0rem;
+		padding: 0.5rem;
+	}
+	.show-counter .countdown-link {
+		padding: 0.5rem;
+	}
+}
